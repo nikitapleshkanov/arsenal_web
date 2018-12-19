@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Экспорт</title>
+    <link rel="shortcut icon" href="/img/socer.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/main_page.css">
+    <link rel="stylesheet" href="/style/main.css">
+</head>
+
+<body>
+        <header class="head_main">
+            <div class="links_head">
+                    <p class="link_href"><a href="../main" class="link_logo">Arsenal FC</a>
+                        
+                        <span class="link_login" >
+                                <a href="../add_db" class="link_header ">Добавить в  leage</a>
+                                <a href="../export" class="link_header active_link">Выгрузка коллекции</a>
+                        </span>
+
+                    </p>
+                 
+            </div>
+                
+            </header>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                            <div class="form">
+                                    <form id="export_db" method="post" action="/export">
+                                        <p class="Authorizated">Выгрузка коллекции</p>
+                                        <label for="gender1">Выберите коллекцию для выгрузки: </label>
+                                        
+                                        <select class="form-control selcls" id="gender1" name="coll">
+ 
+                                                <option selected value="leage" >leage</option>
+                                                <option value="news">news</option>players
+                                                <option value="arsenal_match">arsenal_match</option>
+                                                <option value="players" >players</option>
+                                                 
+                                         </select>
+                                            <br>
+                                            <input type="submit" class="btn btn-success" 
+                                            value="выгрузить" id="ex">
+                                            
+                                           
+                                          
+                                    </form>
+                    </div>
+                </div>
+            
+            </div>   
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>     
+ </body>
+ </html>           

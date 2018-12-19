@@ -1,0 +1,26 @@
+.link_header{
+    margin-right:20px; 
+}
+.text_history{
+    margin-top: 20px;
+
+}
+.text_history_desc{
+    font-size: 18px;
+}
+.active_link{
+    text-decoration: underline;
+}
+.Label_stat{
+    font-size: 24px;
+}
+.Label_desc{
+    font-size: 18px;
+    margin-bottom:25px; 
+}
+.best_players{
+    font-size: 18px;
+}
+#best_player{
+    font-size: 16px;
+}

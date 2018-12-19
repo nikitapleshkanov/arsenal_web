@@ -1,0 +1,5 @@
+use arsenal
+db.arsenal_match.insertOne({"team": "", "date": "", "img": ""})
+db.leage.insertOne({"name": "", "game": "", "scors": ""})
+db.news.insertOne({"title": "", "desc": "", "img": "", "active":""})
+db.players.insertOne({"number": "", "name": "", "amplya": ""})

@@ -1,0 +1,24 @@
+.form{
+    margin-top: 30vh;
+    width: 30%;
+    margin-left: 35%;
+    background-color: #e3e3e3;
+    padding: 20px 1.5%; 
+    border-radius:5px;
+    border-color:#333;  
+}
+body{
+    background-image:url(../img/background.png);  
+  
+}
+.login_but{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 100px;
+}
+.pass{
+    margin-bottom: 15px;
+}
+.Authorizated{
+    font-size: 20px;
+}

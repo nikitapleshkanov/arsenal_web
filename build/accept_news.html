@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Добавление в коллекцию</title>
+    <link rel="shortcut icon" href="/img/socer.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/main_page.css">
+    <link rel="stylesheet" href="/style/main.css">
+</head>
+
+<body>
+        <header class="head_main">
+            <div class="links_head">
+                    <p class="link_href"><a href="../main" class="link_logo">Arsenal FC</a>
+                        <span class="link_login">
+                            
+                            <a href="../add" class="link_header active_link">Добавить в  news</a>
+                            <a href="../export" class="link_header">Выгрузка коллекции</a>
+                            <!-- <a href="../login" class="">
+                                    Выход
+                            </a> -->
+
+                        </span>
+
+                    </p>
+                 
+            </div>
+                
+            </header>
+            <div class="container"> 
+                <div class="row"> 
+                
+                <div class="col-md-12"> 
+                <br> 
+                <br> 
+                <br> 
+                <div class="news"> 
+                <form method="post" action="del_news" id="news"> 
+                <hr> 
+                </form> 
+                
+                </div> 
+                
+                
+                </div> 
+                </div> 
+                </div> 
+                <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> 
+                <script> 
+                $( document ).ready(function() { 
+                
+                let resault={}; 
+                let request = new XMLHttpRequest(); 
+                
+                request.open("POST", "/accept_news", true); 
+                request.setRequestHeader("Content-Type", "application/json"); 
+                request.addEventListener("load", function () { 
+                resault=JSON.parse(request.response); 
+                console.log(resault); 
+                news_fill(resault); 
+                
+                }); 
+                request.send(); 
+                
+                
+                function news_fill(resault){ 
+                for (iter in resault) { 
+                
+                // // $('.desc_nextMatch').text(resault[iter].text); 
+                $('#news').append('<p>'+resault[iter].title+'</p><p>'+resault[iter].desc+'</p><button type="submit" value="'+resault[iter].key +'" class="btn btn-success" name="ok" >Принять</button><button type="submit" value="'+resault[iter].key +'" class="btn btn-danger" name="not">Отклонить</button> <hr>') 
+                
+                
+                } 
+                } 
+                }); 
+                </script> 
+
+              
+
+ </body>
+ </html> 

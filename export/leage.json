@@ -1,0 +1,57 @@
+[
+    {
+        "_id": "5c0bb7444e8d950dd8ea4080",
+        "name": "Манчестер Сити",
+        "game": 16,
+        "scors": 41,
+        "dif": 36
+    },
+    {
+        "_id": "5c0bb9824e8d950dd8ea4084",
+        "name": "Ливерпуль",
+        "game": 16,
+        "scors": 42,
+        "dif": 28
+    },
+    {
+        "_id": "5c0d571e3b8f8142e48cee9a",
+        "name": "Челси",
+        "game": 16,
+        "scors": 34,
+        "dif": 20
+    },
+    {
+        "_id": "5c0d57513b8f8142e48cee9b",
+        "name": "Тоттенхем",
+        "game": 16,
+        "scors": 36,
+        "dif": 14
+    },
+    {
+        "_id": "5c0d578d3b8f8142e48cee9c",
+        "name": "Арсенал",
+        "game": 16,
+        "scors": 34,
+        "dif": 14,
+        "best_player": "players_team"
+    },
+    {
+        "_id": "5c0d57af3b8f8142e48cee9d",
+        "name": "Манчестер Юнайтед",
+        "game": 16,
+        "scors": 26,
+        "dif": 2
+    },
+    {
+        "_id": "5c0eb4c6bc75e524f44ea82e"
+    },
+    {
+        "_id": "5c0eb4c9bc75e524f44ea82f"
+    },
+    {
+        "_id": "5c0eb4ccbc75e524f44ea830"
+    },
+    {
+        "_id": "5c0eb4dabc75e524f44ea832"
+    }
+]

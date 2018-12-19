@@ -1,0 +1,90 @@
+.link_logo{
+    color: white;
+
+}
+.link_logo:hover{                                       
+    color: white;
+    text-decoration: none;
+}
+.head_main{
+background-color: #E40C24;
+}
+.link_href{
+    color: white;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.links_head{
+    margin-left: 13.5%;
+    margin-right:13.5%; 
+}
+.link_login{
+    float: right;
+    font-size: 18px;
+}
+.link_login a {
+    color: white;
+}
+.main_news{
+    color:black;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    /* background-image: url(../img/);
+    background-repeat: no-repeat;   */
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+}
+.desc_news{
+    color: #333;
+    font-size: 20px;
+}
+.logo_club{
+    width: 100%;
+    height: auto;
+}
+.carousel {
+  height: 300px !important;
+}
+.carousel-inner img {
+  height: 350px !important;
+  margin: 0 auto;
+}
+.logo_emlem_next_match{
+    width: 50%;
+    height: auto;
+}
+.p_nextMatch{
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+.date_nextmatch{
+    font-size: 18px;
+    color: #333;
+    padding-top: 5px;
+}
+.subscribe{
+    background-color: #E40C24;
+  
+}
+.input_group{
+    padding: 20px 0;
+    float: right;
+}
+.email_subcribe{
+    float: right;
+}
+.copitaited{
+    color:white;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.copitaited_matches{
+    color:white;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-top: 20vh;
+}

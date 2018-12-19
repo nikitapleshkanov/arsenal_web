@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/login.css">
+    <!-- <link rel="stylesheet" href="/public/css/main.css"> -->
+    <style>
+    /* body{
+        color: red;
+        background-color: red;
+    } */
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+
+        </header>
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="form">
+                        <form id="login" method="post" action="/register">
+                            <p class="Authorizated">Регистрация</p>
+                                <input type="text" id='name', name = 'username' class="form-control" placeholder="Логин" required>
+                                <br>
+                                <span class="MessagePassword"></span>
+                                <input type="password" class="form-control " id='password', name = 'password' placeholder="Пароль" required>
+                                <br>
+                                <input type="password" id='ConfirmPassword', name = 'password' class="form-control pass" placeholder="Повтор пароля" required>
+                                <a href="../login" class="href_reg">Авторизация</a>
+                                <br>
+                                <input type="submit" class="btn btn-success login_but" 
+                                value="Вход" id="reg"
+                                >
+                                
+                               
+                              
+                        </form>
+                           
+                    </div>
+            </div>
+        </div>
+      
+    </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="/js/register_check.js"></script>
+</body>
+</html>
